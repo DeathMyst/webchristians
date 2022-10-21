@@ -1,0 +1,201 @@
+/* Navagation Bar --------------------------------------------------------------------------------------- */
+
+body {
+    font: bold;
+    font-size: 2.0rem;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin: 0px;
+    color: bisque;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.829);
+}
+
+.container {
+    display: grid;
+    height: 76px;
+    width: 100%;
+    grid-template-columns: 1fr 5fr 2fr;
+    align-items: center;
+    margin-top: 0;
+    background: darkblue;
+}
+
+.container > .center-wrapper > .nav-links {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;    
+    align-items: center;    
+    justify-content: space-between;
+}
+
+.container > .center-wrapper > .nav-links a {
+    color: bisque;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.container > .center-wrapper > .nav-links a:hover {
+    color: rgb(234, 174, 111);
+    text-decoration: underline;
+}
+
+.container > .right-wrapper > .buttons {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -7px;
+}
+
+.container > .right-wrapper > .buttons  button {
+    height: 65px;
+	width: 140px;
+	font-size: .4em;
+    font-weight: bold;
+	letter-spacing: 2px;
+	background-color: aqua;
+	color: darkblue;
+	text-align: center;
+	border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container > .right-wrapper > .buttons  button:hover {
+    height: 65px;
+	width: 140px;
+	font-size: .5em;
+    font-weight: bold;
+	letter-spacing: 2px;
+	background-color: rgb(234, 174, 111);
+	color: black;
+	text-align: center;
+	border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Main Heading --------------------------------------------------------- */
+
+.main-body-heading {
+    display: flex;
+    justify-items: center;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    padding: 15px 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body-heading img {
+    width: 170px; 
+    height: 206px;
+}
+
+
+.main-body-heading > .main-opening-heading {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 5fr 1fr;
+    color: darkblue;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body-heading > .main-opening-heading i {
+    justify-content: center;
+    color: bisque;
+}
+
+.main-body-heading > .main-opening-heading > .opening-heading-text {
+    font-family: "DiskusDMed", sans-serif; 
+    font-size: 3.0rem; 
+    color: #EAAC6F;
+    text-align: center;
+}
+
+
+.main-body-heading > .main-opening-heading > .opening-heading-text p {
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .85rem;
+    text-align: center;
+}
+
+/* Verse Header Text --------------------------------------------------------------------------------------- */
+
+.opening-heading-text-mark {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    color: #EAAC6F;
+    align-items: center;
+}
+
+/* Horizontal Lines ----------------------------------------------------------------------------------------- */
+
+.main-body-heading > .main-opening-heading > .opening-heading-text hr {
+    color: rgb(234, 174, 111); 
+    width: 85%;
+}
+
+/* Page Title Header ---------------------------------------------------------------------------------------- */
+
+.trending-header {
+    text-align: center;
+    font-size: 2.75rem;
+    color: rgb(234, 174, 111);
+    text-decoration: underline;
+    justify-content: center;
+}
+
+/* Button Rows ---------------------------------------------------------------------------------------------- */
+
+.main-body-links > .main-body-textlinks > .main-body-headers > .buttons {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-body-links > .main-body-textlinks > .main-body-headers > .buttons  button {
+    height: 75px;
+	width: 470px;
+	font-size: .4em;
+    font-weight: bold;
+	letter-spacing: 2px;
+	background-color: rgba(15, 15, 15, 0.096);
+	color: silver;
+	text-align: center;
+	border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-body-links > .main-body-textlinks > .main-body-headers > .buttons  button:hover {
+	font-size: .5em;
+    font-weight: bold;
+	letter-spacing: 2px;
+	background-color: rgb(234, 174, 111);
+	color: black;
+	text-align: center;
+	border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*  Closing Line -----------------------------------------------------------------------------------------------*/
+
+.closing-trademark {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0rem;
+    color: cyan;
+    align-items: center;
+}
+
+
+}

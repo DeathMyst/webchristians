@@ -1,0 +1,81 @@
+body {
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.0rem;
+    color: rgb(219, 179, 119);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: "DiskusDMed", sans-serif;
+}
+
+.signupInfo {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    width: 80%;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: biege;
+    text-align: center;
+
+}
+
+.signupInfo>.left-side {
+    text-align: right;
+
+}
+
+.signupInfo>.right-side {
+    text-align: left;
+}
+
+.spacer {
+    font-size: 60px;
+    height: 65px;
+    width: 140px;
+}
+
+.saveit>.buttons button {
+    height: 65px;
+    width: 140px;
+    font-size: .4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: aqua;
+    color: darkblue;
+    text-align: center;
+    border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.saveit>.buttons button:hover {
+    height: 65px;
+    width: 140px;
+    font-size: .5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgb(44, 252, 2);
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4 {
+    font-family: "DiskusDMed", sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+hr {
+    align-items: center;
+    align-content: center;
+
+}
