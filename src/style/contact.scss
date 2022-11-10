@@ -1,33 +1,25 @@
-.contact-wrapper {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
-}
-
-.contact-wrapper>.right-wrapper {
-    display: flex;
-    justify-content: space-between;
+.contact-name {
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.contact-wrapper>.left-wrapper {
-    color: #cea135;
-    text-align: center;
-    align-items: center;
-
 }
 
 .contact-title {
     text-align: center;
     align-items: center;
     font-family: "DiskusDMed", sans-serif;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-left: 100px;
+
 }
 
 .contact-image>img {
     align-items: right;
     justify-content: right;
     margin-right: 20px;
+}
+
+.contact-message {
+    height: 50px;
+    width: 200px;
 }

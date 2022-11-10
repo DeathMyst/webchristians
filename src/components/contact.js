@@ -12,13 +12,17 @@ const Contact = () => {
         <div>
             <Banner />
             <Header />
+            <h3>Contact Us @ Web Christians</h3>
             <div className="contact-title">
-                Contact Us @ Web Christians
+                <hr width="80%" color="bisque" />
+                <center>
+                    <ContactForm /><br />
+                </center>
+                <img src={contactPagePicture} alt="Bro. Ric" align='center' />
+                <hr width="80%" color="bisque" />
             </div>
-            <hr width="80%" color="bisque" />
-            <ContactForm /><br />
-            <img src={contactPagePicture} alt="Bro. Ric" align='center' />
             <Footer />
+
         </div>
     )
 }

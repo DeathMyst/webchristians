@@ -14,7 +14,7 @@ export default function () {
 
             <div className="trending-header">
                 Abortion - What the Bible Teaches
-            </div><br />
+            </div>
 
             <hr width="80%" color="#EAAC6F" /><br />
             <div className="main-text">

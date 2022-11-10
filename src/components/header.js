@@ -10,16 +10,16 @@ const Header = () => {
         <header>
             <div className="main-body-heading">
                 <div className="main-opening-heading">
-                    <div><img src={Tears} alt="Jesus Dries Your Tears" /></div>
+                    <img src={Tears} alt="Jesus Dries Your Tears" />
                     <div className="opening-heading-text">
-                        <hr width="85%" color="#EAAC6F" />
+                        <hr width="100%" color="#EAAC6F" />
                         <i className="fa-solid fa-door-open" /> Web Christians <i className="fa-solid fa-cross" />
                         Internet Ministries <i className="fa-solid fa-globe" /><br />
                         <p>Bro. Ric Worstell | Baptized 9/28/1967 | Ordained 12/15/2004 <br />
                             Graduated Bible College 05/03/2013<br />
                             Mark 16:15 - 'And He said unto them, Go ye into all the world,<br /> and preach the gospel to every creature.'</p>
 
-                        <hr width="85%" color="#EAAC6F" />
+                        <hr width="100%" color="#EAAC6F" />
                     </div>
                     <img src={Cross} alt="Cross" />
                 </div>
