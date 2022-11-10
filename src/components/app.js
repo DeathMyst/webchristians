@@ -28,6 +28,7 @@ import Study from "./study";
 import Downloads from "./downloads";
 import Support from "./support";
 import Church from "./church";
+import Members from "./members";
 
 export default function () {
   return (
@@ -57,6 +58,7 @@ export default function () {
         <Route path="/downloads" component={Downloads} />
         <Route path="/support" component={Support} />
         <Route path="/church" component={Church} />
+        <Route path="/members" component={Members} />
       </Switch>
     </Router>
 

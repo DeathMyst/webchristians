@@ -6,6 +6,8 @@ import Header from "./header";
 import Homebody from "./homebody";
 import Footer from "./footer";
 
+import "../../src/style/h_tags.scss"
+
 const currentYear = new Date().getFullYear();
 
 export default function () {

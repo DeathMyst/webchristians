@@ -1,0 +1,32 @@
+body {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: biege;
+    text-align: justify;
+}
+
+.tithing_wrapper {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: biege;
+    text-align: justify;
+    margin-left: 75px;
+    margin-right: 75px;
+
+}
+
+.para-wrapper {
+    font-size: 0.75rem;
+    align-items: center;
+    text-align: center;
+}

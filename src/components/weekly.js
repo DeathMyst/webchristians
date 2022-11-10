@@ -1,5 +1,8 @@
 import React from 'react'
 
+import "../../src/style/h_tags.scss"
+
+
 const Weekly = () => {
     return (
         <div>

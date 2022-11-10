@@ -10,39 +10,10 @@ body {
     font-family: "DiskusDMed", sans-serif;
 }
 
-.signup-title {
+.login-title {
     text-align: center;
     align-items: center;
     font-family: "DiskusDMed", sans-serif;
-}
-
-.signupInfo {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    width: 100%;
-    align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.75rem;
-    color: biege;
-    text-align: center;
-
-}
-
-.signupInfo>.left-side-wrapper {
-    text-align: right;
-
-}
-
-.signupInfo>.right-side-wrapper {
-    text-align: left;
-}
-
-.spacer {
-    font-size: 60px;
-    height: 65px;
-    width: 140px;
 }
 
 .saveit>.buttons button {
@@ -57,6 +28,7 @@ body {
     border-radius: 2px;
     justify-content: space-around;
     align-items: center;
+    font-family: "DiskusDMed", sans-serif;
 }
 
 .saveit>.buttons button:hover {
@@ -71,17 +43,5 @@ body {
     border-radius: 2px;
     justify-content: space-around;
     align-items: center;
-}
-
-h3 {
     font-family: "DiskusDMed", sans-serif;
-    align-items: center;
-    text-align: center;
-    font-size: 1.0em;
-}
-
-hr {
-    align-items: center;
-    align-content: center;
-
 }

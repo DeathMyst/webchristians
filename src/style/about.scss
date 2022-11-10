@@ -1,13 +1,15 @@
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-content: center;
-    width: 80%;
+    align-content: left;
+    width: 90%;
     text-align: justify;
-
+    justify-content: left;
 }
 
 .about-grid>img {
-    align-items: center;
+    align-items: right;
+    justify-content: right;
+    margin-right: 20px;
 
 }

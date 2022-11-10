@@ -1,27 +1,33 @@
-.contact-grid-wrapper {
-    width: 1000px;
+.contact-wrapper {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 100px;
 }
 
-.company-metadata-sidebar-wrapper > .logo img {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.company-metadata-sidebar-wrapper > .company-details-wrapper {
-    font-family: "Ubuntu Condensed", sans-serif;
-    font-weight: 900;
+.contact-wrapper>.right-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: right;
-    font-size: 1.25em;
 }
 
-.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+.contact-wrapper>.left-wrapper {
     color: #cea135;
+    text-align: center;
+    align-items: center;
+
+}
+
+.contact-title {
+    text-align: center;
+    align-items: center;
+    font-family: "DiskusDMed", sans-serif;
+}
+
+.contact-image>img {
+    align-items: right;
+    justify-content: right;
+    margin-right: 20px;
 }

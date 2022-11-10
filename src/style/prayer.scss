@@ -1,0 +1,47 @@
+body {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: beige;
+    text-align: justify;
+}
+
+h2 {
+    font-family: "DiskusDMed", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(134, 134, 9);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: "DiskusDMed", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(218, 218, 100);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-content: center;
+    align-items: center;
+
+}
+
+h7 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0 rem;
+    color: rgb(235, 235, 219);
+    margin-top: 25px;
+    justify-content: center;
+
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(134, 134, 9);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

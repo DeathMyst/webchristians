@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../images/logo1.png"
 
 import "../style/base.scss"
+import "../../src/style/h_tags.scss"
 
 export default function Banner() {
   return (
@@ -25,10 +26,10 @@ export default function Banner() {
 
       <div className="right-wrapper">
         <div className="buttons">
-          <form action="search"><button type="submit"> Search
-            <NavLink exact to="/search" activeClassName="nav-link-active">
+          <form action="support"><button type="submit"> Support Us
+            <NavLink exact to="/support" activeClassName="nav-link-active">
             </NavLink>
-            <i className="fa-solid fa-magnifying-glass-plus"></i></button></form>
+            <i className="fa-solid fa-money-check-dollar"></i></button></form>
           <form action="sign-up"><button type="submit"> Sign Up
             <NavLink exact to="/sign-up" activeClassName="nav-link-active">
             </NavLink>

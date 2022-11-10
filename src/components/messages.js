@@ -3,6 +3,8 @@ import Banner from "./Banner";
 import Footer from "./footer";
 import Header from "./header";
 
+import "../../src/style/h_tags.scss"
+
 const Messages = () => {
     return (
         <div>

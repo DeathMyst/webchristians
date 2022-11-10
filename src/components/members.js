@@ -1,14 +1,20 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
+import Banner from "./Banner";
+import Footer from "./footer";
+import Header from "./header";
+
 import "../style/base.scss"
 import "../../src/style/h_tags.scss"
 
 export default function () {
     return (
         <div>
+            <Banner />
+            <Header />
             <div className="trending-header">
-                Trending and Important Topics
+                Web Christians Members Menu
             </div>
             <hr width="80%" color="#EAAC6F" />
             <div className="main-body-links">
@@ -83,7 +89,7 @@ export default function () {
                         </div>
                     </div>
                 </div>
-                {/* <hr width="80%" color="#EAAC6F" />
+                <hr width="80%" color="#EAAC6F" />
                 <div className="main-body-links">
                     <div className="main-body-textlinks">
                         <div className="main-body-headers">
@@ -130,9 +136,9 @@ export default function () {
                             </div>
                         </div>
                     </div>
-                </div> */}
-
+                </div>
             </div>
+            <Footer />
         </div>
     )
 }

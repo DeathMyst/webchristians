@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 import axios from 'axios';
+import { Redirect } from 'react-router-dom';
 
 import Banner from "./Banner";
 import Footer from "./footer";
 import Header from "./header";
 
 import "../../src/style/sign-up.scss"
+import "../../src/style/h_tags.scss"
+
 
 export default class SignUp extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+
         this.state = {
             fname: "",
             email: "",
@@ -18,37 +22,59 @@ export default class SignUp extends Component {
             addr1: "",
             addr2: "",
             city: "",
-            state: "",
+            mystate: "",
             zipcode: "",
             phone: "",
             saved: "",
-            sdate: "",
-            bdate: ""
+            sdateY: "",
+            sdateM: "",
+            sdateD: "",
+            bdateY: "",
+            bdateM: "",
+            bdateD: "",
+            hassubmitted: false
 
         }
+
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+
     }
 
+    handleSubmit(event) {
 
-    handleSubmit() {
+        event.preventDefault();
 
-        sdate = sdateY + "-" + sdateM + "-" + sdateD
-        bdate = bdateY + "-" + bdateM + "-" + bdateD
-        // users_name = fname
-        // users_email = email
-        // users_pw1 = pword1
-        // users_pw2 = pword2
-        // users_add1 = addr1
-        // users_add2 = addr2
-        // users_city = city
-        // users_state = state
-        // users_zip = zipcode
-        // usersphone = phone
-        // user_saved = saved
-        // user_baptised = bdate
-        // user_saved_date = sdate
+        const sdate = `${this.state.sdateY} - ${this.state.sdateM} - ${this.state.sdateD}`
+        const bdate = `${this.state.bdateY} - ${this.state.bdateM} - ${this.state.bdateD}`
 
-        axios.post(localhost: 3306, fname, email, pword1, pword2, addr1, addr2, city, state, zipcode, phone, saved, bdate, sdate)
+        let data = {
+            fname: this.state.fname,
+            email: this.state.email,
+            pword1: this.state.pword1,
+            pword2: this.state.pword2,
+            addr1: this.state.addr1,
+            addr2: this.state.addr2,
+            city: this.state.city,
+            mystate: this.state.mystate,
+            zipcode: this.state.zipcode,
+            phone: this.state.phone,
+            saved: this.state.saved,
+            bdate: bdate,
+            sdate: sdate
+        }
 
+        axios.post('http://127.0.0.1:5000/guide', data)
+            .then(response => {
+                if (response.status === 201) {
+                    this.setState({
+                        hassubmitted: true,
+                    })
+                }
+
+            }).catch(error => {
+                console.error(error)
+            });
 
     }
 
@@ -65,10 +91,13 @@ export default class SignUp extends Component {
             <div>
                 <Banner />
                 <Header />
-                <h4>Sign Up to Web Christians</h4>
+                <div className="signup-title">
+                    <h3>Sign Up to Web Christians</h3>
+                </div>
+
                 <hr width="80%" color="bisque" />
-                <div className="signupInfo" align="center">
-                    <div className="left-side">
+                <div className="signupInfo">
+                    <div className="left-side-wrapper">
                         <i className="fa-solid fa-signature"></i>Enter your Name: &nbsp;<br />
                         <i className="fa-solid fa-envelope"></i>Enter your Email Address: &nbsp;<br />
                         <i className="fa-solid fa-lock"></i>Enter your Password: &nbsp;<br />
@@ -84,8 +113,8 @@ export default class SignUp extends Component {
                         <i className="fa-solid fa-calendar-days"></i>Date you were Baptised: &nbsp;<br />
                         <i className="spacer"></i>&nbsp;<br /><br />
                     </div>
-                    <div className="right-side">
-                        <form onSubmit="">
+                    <div className="right-side-wrapper">
+                        <form onSubmit={this.handleSubmit}>
                             &nbsp;<input onChange={this.handleChange} type="text" name="fname" /><br />
                             &nbsp;<input onChange={this.handleChange} type="email" name="email" /><br />
                             &nbsp;<input onChange={this.handleChange} type="password" name="pword1" /><br />
@@ -93,8 +122,8 @@ export default class SignUp extends Component {
                             &nbsp;<input onChange={this.handleChange} type="address" name="addr1" /><br />
                             &nbsp;<input onChange={this.handleChange} type="apt" name="addr2" /><br />
                             &nbsp;<input onChange={this.handleChange} type="city" name="city" /><br />
-                            <label for="state"></label>
-                            &nbsp;<select onChange={this.handleChange} name="state">
+
+                            &nbsp;<select onChange={this.handleChange} name="mystate">
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -148,13 +177,13 @@ export default class SignUp extends Component {
                             </select><br />
                             &nbsp;<input onChange={this.handleChange} type="zipcode" name="zipcode" /><br />
                             &nbsp;<input onChange={this.handleChange} type="phone" name="phone" /><br />
-                            <label for="saved"></label>
+
                             &nbsp;<select onChange={this.handleChange} name="saved">
                                 <option value="Yes">Yes</option>
                                 <option value="No">No</option>
                                 <option value="DK">Not Sure</option>
                             </select><br />
-                            <label for="saved"></label>
+
                             &nbsp;<select onChange={this.handleChange} name="sdateY" >
                                 <option value="2022">2022</option>
                                 <option value="2021">2021</option>
@@ -270,8 +299,8 @@ export default class SignUp extends Component {
                                 <option value="1911">1911</option>
                                 <option value="1910">1910</option>
                             </select>
-                            <label for="saved"></label>
-                            &nbsp;<select name="dsaved" id="sdateM">
+
+                            &nbsp;<select onChange={this.handleChange} name="sdateM">
                                 <option value="01">Jan</option>
                                 <option value="02">Feb</option>
                                 <option value="03">Mar</option>
@@ -285,8 +314,8 @@ export default class SignUp extends Component {
                                 <option value="11">Nov</option>
                                 <option value="12">Dec</option>
                             </select>
-                            <label for="saved"></label>
-                            &nbsp;<select name="dsaved" id="sdateD">
+
+                            &nbsp;<select onChange={this.handleChange} name="sdateD">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -319,7 +348,7 @@ export default class SignUp extends Component {
                                 <option value="30">30</option>
                                 <option value="31">31</option>
                             </select><br />
-                            <label for="saved"></label>
+
                             &nbsp;<select onChange={this.handleChange} name="bdateY">
                                 <option value="2022">2022</option>
                                 <option value="2021">2021</option>
@@ -435,8 +464,8 @@ export default class SignUp extends Component {
                                 <option value="1911">1911</option>
                                 <option value="1910">1910</option>
                             </select>
-                            <label for="saved"></label>
-                            &nbsp;<select name="dsaved" id="bdateM">
+
+                            &nbsp;<select onChange={this.handleChange} name="bdateM">
                                 <option value="01">Jan</option>
                                 <option value="02">Feb</option>
                                 <option value="03">Mar</option>
@@ -450,8 +479,8 @@ export default class SignUp extends Component {
                                 <option value="11">Nov</option>
                                 <option value="12">Dec</option>
                             </select>
-                            <label for="saved"></label>
-                            &nbsp;<select name="dsaved" id="bdateD">
+
+                            &nbsp;<select onChange={this.handleChange} name="bdateD">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -489,9 +518,9 @@ export default class SignUp extends Component {
                                     <button type="submit" value="/">Save Information</button>
                                 </div>
                             </div>
-
                         </form>
                     </div>
+                    {this.state.hassubmitted && <Redirect to="/login" />}
                 </div><br />
                 <Footer />
             </div>

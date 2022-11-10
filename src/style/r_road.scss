@@ -1,0 +1,28 @@
+.road_wrapper {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: beige;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.road_wrapper>.road-left-wrapper {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.road_wrapper>.road-right-wrapper {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}

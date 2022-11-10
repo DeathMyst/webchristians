@@ -1,0 +1,31 @@
+.download-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+
+}
+
+.download-wrapper>.download-left-wrapper {
+    align-items: center;
+    font-size: 1.0rem;
+    width: 100%;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.download-wrapper>.download-center-wrapper {
+    align-items: center;
+    font-size: 1.0rem;
+    width: 100%;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.download-wrapper>.download-right-wrapper {
+    align-items: center;
+    font-size: 1.0rem;
+    width: 100%;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
