@@ -12,7 +12,7 @@ const Tithing = () => {
             <Banner />
             <Header />
             <div className="tithing_wrapper">
-                <h3>Tithing</h3>
+                <h2>Tithing</h2>
                 <hr width="80%" color="bisque" />
 
                 <h6>“Oh no here comes another Christian talking about money again.” <br /><br />That’s how most of us think

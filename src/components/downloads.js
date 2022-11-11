@@ -11,7 +11,7 @@ const Downloads = () => {
         <div>
             <Banner />
             <Header />
-            <h5>Recommended Downloads</h5>
+            <h2>Recommended Downloads</h2>
             <hr width="80%" color="#EAAC6F" />
             <div className="download-wrapper">
                 <div className="download-left-wrapper">

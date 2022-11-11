@@ -13,7 +13,7 @@ const Athiest = () => {
             <Banner />
             <Header />
             <div className="athiest-wrapper">
-                <h1 className="trending-header">Athiest</h1>
+                <h2 className="trending-header">Athiest</h2>
                 <hr width="80%" color="#EAAC6F" /><br />
                 <h2>Psalms 53:1 - The fool hath said in his heart, There is no God. Corrupt are they,
                     and have done abominable iniquity: there is none that doeth good.</h2>

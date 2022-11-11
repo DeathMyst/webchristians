@@ -12,7 +12,8 @@ const Politics = () => {
             <Banner />
             <Header />
             <center>
-                <i className="fa-solid fa-democrat"></i> Politics <i className="fa-solid fa-republican"></i><br />Truth about Politics and Religion.</center>
+                <h2><i className="fa-solid fa-democrat"></i> Politics <i className="fa-solid fa-republican"></i><br />Truth about Politics and Religion.</h2>
+            </center>
             <hr width="80%" color="#EAAC6F" />
             <h6>Today's political environment has created a conpletely UN-Biblical viewpoint on politics and religion.  For
                 many years it was illegal for Preacher's to preach about politics in church, something that NEVER should have

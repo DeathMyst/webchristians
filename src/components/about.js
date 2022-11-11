@@ -28,7 +28,7 @@ const About = () => {
                         While my father and mother were both saved as children, they did not take or send us to church,
                         ever.  My first experience with church was when my step-mother, Barbara, started sending us to
                         First Baptist Church on Sunday mornings.  I was nine years old at that time.  She also sent us
-                        to a Catholic church in O'fallon a few times but all that pomp and ceremony never really set-in
+                        to a Catholic church in O'Fallon a few times but all that pomp and ceremony never really set-in
                         or felt right.  It was during a Revival that First Baptist Church was holding that it really hit
                         me that I was a sinner and that God was not only calling me to salvation, but calling me to serve
                         Him.  Things happened in my life after that that should have put me into prison, but God is good
@@ -43,10 +43,11 @@ const About = () => {
                         call for me to serve Him.  I started out doing all the Computer work there are FBC but soon was helping out
                         in the capacity of youth pastor and assistant pastor. I was never given the actual titles but did the jobs
                         none-the-less.  This is when I learned that titles really dont mean anything to God, its what you do and how
-                        you serve that matters.  Seek your glory in Heaven and NOT on this earth. I also started serving as the School
-                        Principle for grades 3 through 12 and setup the AOE Cirriculum that the school started using at that time. This
-                        is also when my pastor convinced me to go to Bible College. So we packed up the family and headed to Hyles
-                        Anderson Baptist College.  I had already been taking courses for a few years through Baptist College of America.
+                        you serve that matters to Him.  Seek your glory in Heaven and NOT on this earth. I also started serving as
+                        the School Principle for grades 3 through 12 and setup the AOE Cirriculum that the school started using at
+                        that time. This is also when my pastor convinced me to go to Bible College. So we packed up the family and
+                        headed to Hyles Anderson Baptist College.  I had already been taking courses for a few years through Baptist
+                        College of America.
                         <hr width="100%" color="#EAAC6F" /><br />
                     </div>
                 </div>

@@ -12,6 +12,9 @@ const Sermon = () => {
             <Banner />
             <Header />
             <h2>Sermons</h2>
+            <hr width="80%" color="#EAAC6F" />
+
+            <hr width="80%" color="#EAAC6F" />
             <Footer />
         </div>
     )

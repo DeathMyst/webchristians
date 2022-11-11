@@ -12,8 +12,8 @@ const Daily = () => {
             <Banner />
             <Header />
             <div className="daily-header">
-                <h3>Daily Bible Readings</h3>
-                <h5>Genesis Chapters 1 & 2</h5>
+                <h2>Daily Bible Readings</h2>
+                <h3>Genesis Chapters 1 ~ 3</h3>
                 <hr width="80%" color="bisque" />
                 <h2>The Creation of the World</h2>
                 <h7 className="verse_tag">1:1</h7> In the beginning God created the heaven and the earth.

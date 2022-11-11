@@ -13,7 +13,7 @@ const Truely = () => {
             <Header />
             <div className="truely_wrapper">
                 <center>
-                    <h1>Truely a Christian?</h1>
+                    <h2>Truely a Christian?</h2>
                 </center>
                 <hr width="80%" color="bisque" /><br />
                 <h2>Matthew 7:21/27  Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven;

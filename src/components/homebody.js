@@ -8,7 +8,7 @@ export default function () {
     return (
         <div>
             <div className="trending-header">
-                Trending and Important Topics
+                <h2>Trending and Important Topics</h2>
             </div>
             <hr width="80%" color="#EAAC6F" />
             <div className="main-body-links">

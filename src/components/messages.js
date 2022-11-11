@@ -10,7 +10,10 @@ const Messages = () => {
         <div>
             <Banner />
             <Header />
-            Messages
+            <h2>Weekly Messages</h2>
+            <hr width="80%" color="#EAAC6F" />
+
+            <hr width="80%" color="#EAAC6F" />
             <Footer />
         </div>
     )

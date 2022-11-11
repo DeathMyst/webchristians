@@ -13,7 +13,7 @@ const One_way = () => {
             <Header />
             <div className="one_way_wrapper">
                 <center>
-                    <h1>One Way</h1>
+                    <h2>One Way</h2>
                 </center>
                 <hr width="80%" color="bisque" />
                 <h2>John 14:6 - Jesus saith unto him, I am the way, the truth, and the life: <br />no man cometh unto the Father,

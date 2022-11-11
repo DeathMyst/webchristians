@@ -11,7 +11,7 @@ const Study = () => {
             <Banner />
             <Header />
             <div className="study-header">
-                <h5>Daily Bible Study</h5>
+                <h2>Daily Bible Study</h2>
                 <hr width="80%" color="#EAAC6F" />
                 <h2>Increasing Corruption on Earth</h2>
                 Gen 6:1 And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them,
