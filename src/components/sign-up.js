@@ -64,7 +64,7 @@ export default class SignUp extends Component {
             sdate: sdate
         }
 
-        axios.post('http://127.0.0.1:5000/guide', data)
+        axios.post('https://webchrictiansbackend.herokuapp.com/guide', data)
             .then(response => {
                 if (response.status === 201) {
                     this.setState({
