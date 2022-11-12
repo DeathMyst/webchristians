@@ -49,6 +49,28 @@ const About = () => {
                         headed to Hyles Anderson Baptist College.  I had already been taking courses for a few years through Baptist
                         College of America.
                         <hr width="100%" color="#EAAC6F" /><br />
+                        <h3>Attended Baptist College of America 2003 - 2014</h3>
+                        I still have a few courses I need to take to finish out my degree, but I know enough to know that I am held
+                        accountable for everything I post here. Everything posted here is directly from the Word of God.  I am not
+                        posting my personal beliefs or thoughts, I am posting what God has written Himself in His Holy Bible.  I will
+                        NOT post it here unless there are proofs in scripture that backup everything I post.  You may not agree with all
+                        that I post here but thats for you to study scripture and try to find proofs that anything I post here is not
+                        correct.  Not from your opinion but from scripture, without twisting it to your meaning but keeping it with God's.<br /><br />
+                        It is NOT my intention to offend anyone with anything I post here, to the contrary, it is my intention to teach
+                        God's truth and to bring His Word to the people, as He commands us to do.  I know that much of what i will say here
+                        will offend people and I am sorry for that, but instead of killing the messanger, try to prove me wrong on any point
+                        I bring up here.  I know many preachers out there twist and turn God's word to try to prove their OPINION on a matter,
+                        but I give it to you just as it is, just as Gods Word teaches it.  I will never preach to itching ears or change what
+                        or how I teach to please any man, I preach to please God, not man.  If my words here convict you in your heart, then
+                        GOOD, thats what they are meant to do.  Its God's Words that are convicting you, not mine.  But the truth is the truth,
+                        you cannot believe differently from God's Word and still consider yourself a Christian.  Remember, there will be many
+                        that will stand before Jesus saying 'didn't we preach in your name, didn't we cast out demons in your name' and Jesus
+                        will say to them 'depart from me you wicked for I know you not!' Stop twisting God's word to meet YOUR wishes or YOUR
+                        interpretation.  Even a 6th grader knows the meanings of most of God's Word without having to twist it to their own
+                        hearts.  To be a true Christian means that you strive to be Christ Like, NOT that you try to make Christ in YOUR image.
+                        God is the same yesterday, today and forever.  What He said and meant 5000 years ago means the same today and it will
+                        mean the same in the Millenial Kingdom to come. God changes NOT.
+                        <hr width="100%" color="#EAAC6F" /><br />
                     </div>
                 </div>
 

@@ -7,11 +7,10 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
-
+    background-size: cover;
 }
 
-.hero-section > .top-heading {
+.hero-section>.top-heading {
     padding: 1px 20px;
     background-color: #11122B;
     color: #cbcbcb;
@@ -19,7 +18,7 @@
     border-radius: 2px;
 }
 
-.hero-section > .bottom-heading {
+.hero-section>.bottom-heading {
     background-color: #CEA135;
     color: #11122B;
     padding: 1px 20px;
@@ -39,10 +38,10 @@
     justify-content: center;
     align-items: center;
     font-family: "Ubuntu Condensed", sans-serif;
-    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 
-.features-section > .columns-wrapper {
+.features-section>.columns-wrapper {
     width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -57,29 +56,25 @@
     transition: 1s;
 }
 
-.features-section > .columns-wrapper > .column:hover {
+.features-section>.columns-wrapper>.column:hover {
     border-bottom: 5px solid #11122b;
 }
 
-.features-section > .columns-wrapper > .column :nth-child(1) {
+.features-section>.columns-wrapper>.column :nth-child(1) {
     font-size: 3em;
 }
 
-.features-section > .columns-wrapper > .column :nth-child(2) {
+.features-section>.columns-wrapper>.column :nth-child(2) {
     font-size: 1.5em;
     font-weight: 900;
     height: 50px;
     transition: 1s;
 }
 
-.features-section > .columns-wrapper > .column :nth-child(2):hover {
+.features-section>.columns-wrapper>.column :nth-child(2):hover {
     letter-spacing: 1px;
 }
 
-.features-section > .columns-wrapper > .column :nth-child(3) {
+.features-section>.columns-wrapper>.column :nth-child(3) {
     letter-spacing: 2px;
 }
-
-
-
-

@@ -128,10 +128,11 @@ export default function () {
                         die and that we will spend eternity in Heaven with him.  We will ALL live forever, its up to YOU to
                         make the decision as to where you will spend eternity.</h6>
                 </div>
-                <br /><hr width="80%" color="bisque" /><br />
+                <br /><hr width="60%" color="bisque" />
                 <center><img src={R_Roadpic} alt="Romans Road to Salvation" /></center>
+                <hr width="60%" color="bisque" /><br />
             </div>
-            <hr width="80%" color="bisque" /><br />
+
             <Footer />
         </div>
     )

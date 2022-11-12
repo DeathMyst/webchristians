@@ -186,7 +186,7 @@ body {
 .main-body-links>.main-body-textlinks>.main-body-headers>.buttons button {
     height: 75px;
     width: 470px;
-    font-size: .4em;
+    font-size: .7em;
     font-weight: bold;
     letter-spacing: 2px;
     background-color: rgba(15, 15, 15, 0.096);
@@ -198,10 +198,10 @@ body {
 }
 
 .main-body-links>.main-body-textlinks>.main-body-headers>.buttons button:hover {
-    font-size: .5em;
+    font-size: .8em;
     font-weight: bold;
     letter-spacing: 2px;
-    background-color: rgb(219, 179, 119);
+    background-color: rgb(235, 185, 110);
     color: black;
     text-align: center;
     border-radius: 2px;
@@ -215,7 +215,7 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.0rem;
-    color: cyan;
+    color: rgba(236, 179, 19, 0.973);
     align-items: center;
     text-decoration: none;
 }

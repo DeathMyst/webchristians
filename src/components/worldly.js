@@ -17,28 +17,31 @@ const Worldly = () => {
                 Holy Bible.  The last chapter of the Bible tells us: <br /><br />
 
                 <h2>Revelation 22:18 For I testify unto every man that heareth the words of the prophecy of this book, If
-                    any man shall add unto these things, God shall add unto him the plagues that are written in this book:
+                    any man shall add unto these things, God shall add unto him the plagues that are written in this book:<br />
                     Revelation 22:19 And if any man shall take away from the words of the book of this prophecy, God shall
                     take away his part out of the book of life, and out of the holy city, and from the things which are
                     written in this book.</h2><br /><br />
 
                 We are not to add to or take away from the Word of God, the Holy Bible.  Some, many, religions claim to
                 have been visited by an Angel of God, claiming to be Micheal or Gabriel, and that these angels gave them
-                even more "words from God".  God would not give a commandment not to add too the Holy Bible and then send
-                an angel with more words of scripture.  Personally, I have no doubt in the claims of these men, that an
-                angel appeared to them and gave them more words from God.  Who is the father of deception, the father of
-                lies and deciept.  It was Satan that appeared to these men and gave them different words, words that even
-                contradicted God's word and set men against men and has caused so many wars over the years.  Who would do
-                something like that? Who would want to cause confusion and striff in the Body of Christ? Satan of course.
-                I guess when your on the outside of these religions looking in, it is so painfully clear what exactly is
-                happening.  God would not cause striff and confussion within His own body.  God wants all men to come together
-                under one faith, under one Book, under one God. <br /><br />
+                even more "words from God".  Why would God give a commandment not to add too the Holy Bible and then send
+                an angel with more words of scripture?  He Would not do such a thing.<br /><br />
+                Personally, I have no doubt in the claims of these men, that an angel appeared to them and gave them more
+                words claiming that they were from God.  Who is the father of deception, the father of lies and deciept?
+                It was Satan that appeared to these men and gave them different words, words that even contradicted God's
+                word and set men against men and has caused so many wars over the years.  Who would do something like that?
+                Who would want to cause confusion and striff in the Body of Christ? Satan of course.  I guess when your on
+                the outside of these religions looking in, it is so painfully clear what exactly is happening.  I mean, who
+                wouldn't want to be able to claim that an angel of God visited them and gave them special information, new
+                information from God Himself.  Who would not want to believe that?  But God would not cause striff and
+                confussion within His own body.  God wants all men to come together under one faith, under one Book, under
+                just one God. The creator of ALL.<br /><br />
 
                 What religion/faith did Jesus Himself setup when He walked the earth?  It was a faith that would walk, talk,
-                live and love as He did.  A faith where all men worked together in the Body of Christ to lead all peoples to
-                salvation in Him, in Christ.  He did not come to create muultiple religions, but to spread ONE faith, one
-                belief.  There is only one God so there should be only one relition, yet there are over 4,500.  Satan has done
-                his work well.<br /><br />
+                live and love as He did.  Live the example He Himself gave us to live.  A faith where all men worked together
+                in the Body of Christ to lead all peoples to salvation in Him, in Christ.  He did not come to create muultiple
+                religions, but to spread ONE faith, one belief.  There is only one God so there should be only one relition,
+                yet there are over 4,500.  Satan has done his work well.<br /><br />
 
                 You cannot get to Heaven by works, you cannot 'be a good person' and gain entrance to Heaven.  There is only
                 ONE way to get into Heaven and thats through the ONE true God.  All these religions that teach works, or the
@@ -73,10 +76,25 @@ const Worldly = () => {
                 is ok to ask for advise and for others opinions as to what something might mean, but ALWAYS verify what they are
                 telling you with Scripture!  The more you read, the more you study, the more you will come to an acceptance of
                 Christ and the more you will know, there is only ONE true religion and 4,499 plus religions created by Satan to
-                generate striff and confusion in the Body of Christ.</h6>
+                generate striff and confusion in the Body of Christ.<br /><br />
 
-
-
+                Only the Holy Bible dates back to over 5000 years ago.  The Book of Morman is less than 200 years old, the Koran is
+                less than 600 years old.  God wants all men to come together under one faith not under thousands of faiths.  Trust in
+                the Book that was written by God Himself over 5000 years ago and has been RIGHT on everything it has predicted so far.
+                NO other book can make that boast, make that claim.  Only the Holy Bible, the KJV version that was translated from the
+                original texts themselves.  No other "holy" book can make that claim.  Only the Holy Bible.  Even these "new versions"
+                of the Bible have made changes that change the entire doctrine of the scriptures.  They are NOT the Word of God when
+                they changea or remove entire verses of scripture.<br /><br /></h6>
+            <hr width="60%" color="bisque" />
+            <h2>John 3:16 For God so loved the world, that he gave his only begotten Son, <br />that whosoever believeth in him should not
+                perish, but have everlasting life.</h2>
+            <hr width="60%" color="bisque" />
+            <h6>This verse has been changed the most in all these new versions.  It says the only Begotten Son for a reason.  Jesus IS
+                the only Begotten Son of God but not the only son of God.  Other verses tell us that 'now are ye become the sons of God.  We
+                can all become sons (small s) of God by trusting and having faith in Jesus the Christ.  Scripture is very clear on this matter,
+                it is the whole path to salvation, becomming the sons of God.  Remember, in Heaven there are no sexes, we are not given in
+                marriage there are we are here. So when God says now are ye become the sons of God, now you are a new creation, a new creature,
+                it refers to both sexes, male and female. We become the "adopted" children of God.</h6><br /><br />
             <hr width="80%" color="bisque" />
             <Footer />
         </div>

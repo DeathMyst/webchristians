@@ -83,55 +83,6 @@ export default function () {
                         </div>
                     </div>
                 </div>
-                {/* <hr width="80%" color="#EAAC6F" />
-                <div className="main-body-links">
-                    <div className="main-body-textlinks">
-                        <div className="main-body-headers">
-                            <div className="buttons">
-                                <form action="journal">
-                                    <button type="submit" value=""> Daily Journal
-                                        <NavLink exact to="/journal" activeClassName="nav-link-active"></NavLink>
-                                        <i className="fa-solid fa-book-journal-whills"></i><br />Daily Journal on todays Bible Verses.</button>
-                                </form>
-                                <form action="study">
-                                    <button type="submit" value=""> Bible Study
-                                        <NavLink exact to="/study" activeClassName="nav-link-active"></NavLink>
-                                        <i className="fa-solid fa-school"></i><br />Indepth Bibly Study.</button>
-                                </form>
-                                <form action="messages">
-                                    <button type="submit" value="">Messages
-                                        <NavLink exact to="/messages" activeClassName="nav-link-active"></NavLink>
-                                        <i className="fa-solid fa-message"></i><br />Weekly Messages on Current Topics.</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr width="80%" color="#EAAC6F" />
-                <div className="main-body-links">
-                    <div className="main-body-textlinks">
-                        <div className="main-body-headers">
-                            <div className="buttons">
-                                <form action="downloads">
-                                    <button type="submit" value=""> Downloads
-                                        <NavLink exact to="/downloads" activeClassName="nav-link-active"></NavLink>
-                                        <i className="fa-solid fa-download"></i><br />Recommended Downloads.</button>
-                                </form>
-                                <form action="prayer">
-                                    <button type="submit" value=""> Prayer Requests
-                                        <NavLink exact to="/prayer" activeClassName="nav-link-active"></NavLink>
-                                        <i className="fa-solid fa-person-praying"></i><br />Prayer Requests.</button>
-                                </form>
-                                <form action="sermon">
-                                    <button type="submit" value=""> Sermons
-                                        <NavLink exact to="/sermon" activeClassName="nav-link-active"></NavLink>
-                                        <i className="fa-solid fa-users-rectangle"></i><br />Worth Listening to.</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
             </div>
         </div>
     )

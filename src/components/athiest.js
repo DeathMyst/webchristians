@@ -84,54 +84,56 @@ const Athiest = () => {
                 These are reall places and you will spend eternity in one or the other, and unlike many songs and poems, hell is NOT a place
                 of partying and endless 'fun'.  Hell is a place of endless pain and suffering.
                 <br /><hr width="80%" color="#EAAC6F" /><br />
-                <h2>Pro_23:9  Speak not in the ears of a fool: for he will despise the wisdom of thy words.</h2>
+                <h2>Pro_23:9 Speak not in the ears of a fool: for he will despise the wisdom of thy words.</h2>
                 Gos warns us not to 'argue' with athiests, all this will do is result in anger and striff. Debate them yes, argue with
                 them ... definately NO.
                 <br /><hr width="80%" color="#EAAC6F" /><br />
-                <h2>Mat_14:31  And immediately Jesus stretched forth his hand, and caught him, and said unto him, O thou of little faith,
+                <h2>Mat_14:31 And immediately Jesus stretched forth his hand, and caught him, and said unto him, O thou of little faith,
                     wherefore didst thou doubt?</h2>
                 Just as believing in God requires faith, so does not believing in God require faith.
                 <br /><hr /><br />
-                <h2>Mat_17:20  And Jesus said unto them, Because of your unbelief: for verily I say unto you, If ye have faith as a grain
+                <h2>Mat_17:20 And Jesus said unto them, Because of your unbelief: for verily I say unto you, If ye have faith as a grain
                     of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be
                     impossible unto you.<br />
-                    Mat_21:21  Jesus answered and said unto them, Verily I say unto you, If ye have faith, and doubt not, ye shall not only do
+                    Mat_21:21 Jesus answered and said unto them, Verily I say unto you, If ye have faith, and doubt not, ye shall not only do
                     this which is done to the fig tree, but also if ye shall say unto this mountain, Be thou removed, and be thou cast into the
                     sea; it shall be done.</h2>
                 Faith in the right things can accomplish a great many things.
                 <br /><hr width="80%" color="#EAAC6F" />
-                <h2>Mat_23:23  Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint and anise and cummin, and have
+                <h2>Mat_23:23 Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint and anise and cummin, and have
                     omitted the weightier matters of the law, judgment, mercy, and faith: these ought ye to have done, and not to leave the
                     other undone.</h2>
 
                 <br /><hr width="80%" color="#EAAC6F" /><br />
-                <h2>Mar_5:34  And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.
-                    Mar_10:52  And Jesus said unto him, Go thy way; thy faith hath made thee whole. And immediately he received his sight, and followed Jesus in the way.
-                    Mar_11:22  And Jesus answering saith unto them, Have faith in God.
-                    2Co_5:7  (For we walk by faith, not by sight:)</h2>
+                <h2>Mar_5:34 And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.
+                    Mar_10:52 And Jesus said unto him, Go thy way; thy faith hath made thee whole. And immediately he received his sight, and followed Jesus in the way.
+                    Mar_11:22 And Jesus answering saith unto them, Have faith in God.
+                    2Co_5:7 (For we walk by faith, not by sight:)</h2>
                 <h3>231 verses about Faith.</h3>
                 <br /><hr width="80%" color="#EAAC6F" /><br />
                 Just as 'Faith' is required to believe that God does indeed exist, 'Faith' is also required to believe that
                 God does not exist.  Any self claimed athiest must have faith in their belief that God does not exist since
                 there is no way that they can prove that God does not exist.  Standing there demanding that God appear before
-                you or prove to you that He exists is the weakest and lamest of so called proofs. Why would ANY God jump to
-                the "demands" of those that He created just to prove to them that they are wrong in their belief that He does
-                not exist. This by definition makes atheism a religion since it requuires faith.  Have no fear however, God
-                has already promised that one day He will indeed prove Himself to EVERYONE.  Every knee shall bow and every
-                tongue will confess that God does indeed exist.  That He is who He says He is and He did everything that He
-                said He did in his story, the Bible.  After all, history is HIS STORY.  I pray with all my heart that before
-                the day comes when you must kneel, that you do put your faith and belief in God.  If not, it will be too late
-                for you.  Everyone lives forever, its here that we choose our eternal 'address'.  Either Heaven with God, where
-                Jesus went to make a Mansion for you, or forever in Hell, in a lake of eternal fire and punishment.  This is not
-                where God chose to send anyone. He created Hell for the angels that rebelled against Him, but He has to have
-                somewhere to send those that refuse to trust or to believe in Him.  He sent Jesus to earth to prove He still
-                loves us and that He does indeed exist.  He told them clearly and plainly that He is God and to provide a path
+                you or prove to you that He exists is the weakest and lamest meathod to try to prove ANYTHING much less the
+                existance of God. Why would ANY God jump to the "demands" of those whom He created just to prove to them that
+                they are wrong in their belief, their faith, that He does not exist. This by its definition makes atheism a
+                religion since it requires faith.  Have no fear however, God has already promised that one day He will indeed
+                prove Himself to EVERYONE.  Every knee shall bow and every tongue shall confess that God does indeed exist.
+                That He is who He says He is and He did everything that He said He did in his story, the Bible.  After all,
+                history is HIS STORY.  I pray with all my heart that before that great and terrible day comes, when you must
+                kneel before Him, that you do indeed put your faith and belief in God.  If not, well, it will be too late for
+                you on that day.  Everyone will live forever, its here that we choose our eternal 'address'.  Either Heaven
+                with God, where Jesus went to make a Mansion for you, or forever in Hell, in a lake of eternal fire and punishment.
+                This is not where God chose to send anyone. He created Hell for the angels that rebelled against Him, but He has
+                to have somewhere to send those that refuse to trust or to believe in Him.  He sent Jesus to earth to prove He
+                still loves us and that He does indeed exist.  He told them clearly and plainly that He is God and to provide a path
                 back to Him that requires so very little on our part.  Jesus did all the hard work for us. He performed many
                 miracles, raised the dead, cured diseases and so very many other things while He was here just to show us that
-                He is real, He does live and He still loves us despite all the wrong we do.<br />
+                He is real, He does live and He still loves us despite all the wrong we do.<br /><br />
                 There are so many facts that must be dismissed to 'choose' not to believe in God.  With every new scientific discovery,
                 more and more proof of God is revealed.  It is a virtual impossibility that man "evolved" from anything.  Believe in the
-                facts and in the evidence, God does exist and He does love you even with your doubt. God would that NONE are lost.
+                facts and in the evidence, God does exist and He does love you even with your doubt. God would that NONE are lost. God
+                wants us all to have faith in His existance and in His love for us.
 
             </div>
             <Footer />

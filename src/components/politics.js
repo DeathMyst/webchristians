@@ -58,10 +58,10 @@ const Politics = () => {
                 then your doing it wrong and not doing it according to God's teachings.  We learn a lot about how we should "vote" in the
                 torah, the first five books of the Bible but we learn a lot from the teachings of Jesus also.<br /><br /></h6>
             <hr width="80%" color="#EAAC6F" />
-            <h5>Things you should NOT be voting for according to scripture.</h5>
+            <h3>Things you should NOT be voting for according to scripture.</h3>
             <ol>
                 <li>Abortion.</li>
-                <ul>Too many so called Christians just cast their votes "protecting a womans right to choose" but
+                <ul>Too many so called Christians just cast their votes "protecting a womans right to choose" but<br />
                     unfortunately for them it's God's choice that counts and God clearly teaches us that life begins at
                     conception, NOT at birth.</ul>
                 <ul>You cannot be Christian and support abortion, you just cannot.</ul>
@@ -70,17 +70,27 @@ const Politics = () => {
                 <ul>God warns us over and over again that a large government leads to just one thing, corruption.</ul>
                 <ul>The Larger the government the larger the taxes that they collect.</ul>
                 <li>Taxation without representation. <br />
-                    <ul>Today many taxes are passed without any representation from the people.  Our so called leaders pass these
+                    <ul>Today many taxes are passed without any representation from the people.  Our so called leaders pass these<br />
                         taxes more for their benefit that for the benefit of the people.</ul>
                     <ul>Our taxes pay for our elected officialy childrens college education at the most elite (expensive) colleges
-                        in the country, in the world in some cases.</ul>
+                        in the country,<br /> in the world in some cases.</ul>
                     (not just government representation but representation by the people, by popular vote.)</li>
                 <li>Anyone that has been in office a long time.</li>
+                <ul>The longer they are in office the more it seems they become corrupt, self serving.</ul>
+                <ul>They pass laws benefiting and protecting themselves over protecting the people.</ul>
                 <li>Anyone that wants to take God's given rights away from you.</li>
+                <ul>These are not people that were appointed by God but lied and cheated their way into power.</ul>
                 <li>Anyone that wants to limit religion in any way.</li>
                 <li>Any politician that has been proven to Lie.</li>
+                <ul>If they lie about one thing they most likely lie about many things. Do not trust them.</ul>
                 <li>Any politician getting rich while in office.</li>
+                <ul>These are politicians that are in it for themselves, not in it to serve you, the people.</ul>
                 <li>Any politician that thinks there is supposed to be a seperation of Church and State.</li>
+                <ul>This is one of the biggest lies Satan has gotten man to believe, that there is supposed to be seperation<br />
+                    between Church and the State. NOTHING is further from the truth. What this is supposed to mean is that the State is <br />
+                    NEVER to have power over the Church but the Church should always influence the state.  In the laws passed, in the <br />
+                    taxes collected, in how those taxes are spent. In how the police use the power that they are given.  In so many other <br />
+                    ways that our government is supposed to SERVE the people, never RULE the people.</ul>
             </ol>
             <Footer />
         </div>
