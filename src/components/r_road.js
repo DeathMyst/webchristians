@@ -7,6 +7,7 @@ import "../style/r_road.scss"
 import "../../src/style/h_tags.scss"
 
 import R_Roadpic from "../images/r_road.jpg"
+import Paid from "../images/paid.jpg"
 
 export default function () {
     return (
@@ -130,6 +131,8 @@ export default function () {
                 </div>
                 <br /><hr width="60%" color="bisque" />
                 <center><img src={R_Roadpic} alt="Romans Road to Salvation" /></center>
+                <hr width="60%" color="bisque" /><br />
+                <center><img src={Paid} alt="Your wage is Paid" /></center>
                 <hr width="60%" color="bisque" /><br />
             </div>
 

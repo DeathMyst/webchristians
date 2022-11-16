@@ -8,6 +8,8 @@ import Footer from "./footer";
 import Header from "./header";
 
 import Selfie from "../images/ric04.jpg"
+import Navy3 from "../images/ric_navy3.jpg"
+
 import { HTML5_FMT } from 'moment/moment';
 
 const About = () => {
@@ -18,7 +20,15 @@ const About = () => {
             <center>
                 <div className="about-grid">
                     <div>
-                        <img src={Selfie} alt="Bro. Ric" align='center' />
+                        <center>
+                            <hr width="80%" color="#EAAC6F" /><br /><br />
+                            <img src={Selfie} alt="Bro. Ric" align='center' /><br /><br />
+                            Back when I was at Faith Baptist Church
+                            <hr width="80%" color="#EAAC6F" /><br /><br />
+                            <img src={Navy3} alt="Bro. Ric" align='center' /><br /><br />
+                            WAY Back when I was RPOC In Navy Basic Training
+                            <hr width="80%" color="#EAAC6F" /><br /><br />
+                        </center>
                     </div>
                     <div>
                         <h2>Bro. Ric Worstell</h2>
@@ -47,7 +57,7 @@ const About = () => {
                         the School Principle for grades 3 through 12 and setup the AOE Cirriculum that the school started using at
                         that time. This is also when my pastor convinced me to go to Bible College. So we packed up the family and
                         headed to Hyles Anderson Baptist College.  I had already been taking courses for a few years through Baptist
-                        College of America.
+                        College of America.<br /><br />
                         <hr width="100%" color="#EAAC6F" /><br />
                         <h3>Attended Baptist College of America 2003 - 2014</h3>
                         I still have a few courses I need to take to finish out my degree, but I know enough to know that I am held
@@ -56,6 +66,7 @@ const About = () => {
                         NOT post it here unless there are proofs in scripture that backup everything I post.  You may not agree with all
                         that I post here but thats for you to study scripture and try to find proofs that anything I post here is not
                         correct.  Not from your opinion but from scripture, without twisting it to your meaning but keeping it with God's.<br /><br />
+
                         It is NOT my intention to offend anyone with anything I post here, to the contrary, it is my intention to teach
                         God's truth and to bring His Word to the people, as He commands us to do.  I know that much of what i will say here
                         will offend people and I am sorry for that, but instead of killing the messanger, try to prove me wrong on any point
@@ -69,7 +80,7 @@ const About = () => {
                         interpretation.  Even a 6th grader knows the meanings of most of God's Word without having to twist it to their own
                         hearts.  To be a true Christian means that you strive to be Christ Like, NOT that you try to make Christ in YOUR image.
                         God is the same yesterday, today and forever.  What He said and meant 5000 years ago means the same today and it will
-                        mean the same in the Millenial Kingdom to come. God changes NOT.
+                        mean the same in the Millenial Kingdom to come. God changes NOT.<br /><br />
                         <hr width="100%" color="#EAAC6F" /><br />
                     </div>
                 </div>

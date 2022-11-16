@@ -6,6 +6,8 @@ import Header from "./header";
 import "../style/one_way.scss"
 import "../../src/style/h_tags.scss"
 
+import Religions from "../images/4200_Religions.jpg"
+
 const One_way = () => {
     return (
         <div>
@@ -78,6 +80,11 @@ const One_way = () => {
                     was an abomination to Him 5000 years ago is STILL an abomination to Him today and will be tomorrow also.  Much of this
                     we will cover more in depth in other areas.</h6>
                 <hr width="80%" color="bisque" />
+            </div>
+            <div>
+                <center>
+                    <img src={Religions} alt="4200 Religions" align='center' />
+                </center>
             </div>
             <Footer />
 

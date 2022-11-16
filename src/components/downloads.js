@@ -5,6 +5,7 @@ import Header from "./header";
 
 import "../style/downloads.scss"
 import "../../src/style/h_tags.scss"
+import Esword from "../images/e_sword.gif"
 
 const Downloads = () => {
     return (
@@ -15,35 +16,35 @@ const Downloads = () => {
             <hr width="80%" color="#EAAC6F" />
             <div className="download-wrapper">
                 <div className="download-left-wrapper">
-                    <h2>E-SWORD</h2>
-                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">e-Sword v13.0.0 Install<span><br />56.9 MB, updated 03-26-2021</span></a>
-                    <br />e-Sword v13.0.0 Install
+                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">
+                        <img src={Esword} alt="E-Sword Bible Software" align='center' /><br />
+                        <br />e-Sword v13.0.0 Install</a>
                 </div>
                 <div className="download-center-wrapper">
-                    <h2>E-SWORD</h2>
-                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">e-Sword v13.0.0 Install<span><br />56.9 MB, updated 03-26-2021</span></a>
-                    <br />e-Sword v13.0.0 Install
+                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">
+                        <img src={Esword} alt="E-Sword Bible Software" align='center' /><br />
+                        <br />e-Sword v13.0.0 Install</a>
                 </div>
                 <div className="download-right-wrapper">
-                    <h2>E-SWORD</h2>
-                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">e-Sword v13.0.0 Install<span><br />56.9 MB, updated 03-26-2021</span></a>
-                    <br />e-Sword v13.0.0 Install
+                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">
+                        <img src={Esword} alt="E-Sword Bible Software" align='center' /><br />
+                        <br />e-Sword v13.0.0 Install</a>
                 </div>
                 <br /><hr width="100%" color="#EAAC6F" /><br />
                 <div className="download-left-wrapper">
-                    <h2>E-SWORD</h2>
-                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">e-Sword v13.0.0 Install<span><br />56.9 MB, updated 03-26-2021</span></a>
-                    <br />e-Sword v13.0.0 Install
+                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">
+                        <img src={Esword} alt="E-Sword Bible Software" align='center' /><br />
+                        <br />e-Sword v13.0.0 Install</a>
                 </div>
                 <div className="download-center-wrapper">
-                    <h2>E-SWORD</h2>
-                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">e-Sword v13.0.0 Install<span><br />56.9 MB, updated 03-26-2021</span></a>
-                    <br />e-Sword v13.0.0 Install
+                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">
+                        <img src={Esword} alt="E-Sword Bible Software" align='center' /><br />
+                        <br />e-Sword v13.0.0 Install</a>
                 </div>
                 <div className="download-right-wrapper">
-                    <h2>E-SWORD</h2>
-                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">e-Sword v13.0.0 Install<span><br />56.9 MB, updated 03-26-2021</span></a>
-                    <br />e-Sword v13.0.0 Install
+                    <a href="files/e-sword_1300_setup.exe" class="button" data-icon="↓">
+                        <img src={Esword} alt="E-Sword Bible Software" align='center' /><br />
+                        <br />e-Sword v13.0.0 Install</a>
                 </div>
                 <br /><hr width="100%" color="#EAAC6F" /><br />
             </div>

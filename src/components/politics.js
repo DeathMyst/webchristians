@@ -6,6 +6,8 @@ import Header from "./header";
 import "../style/politics.scss"
 import "../../src/style/h_tags.scss"
 
+import Index from "../images/index2.jpg"
+
 const Politics = () => {
     return (
         <div>
@@ -92,6 +94,9 @@ const Politics = () => {
                     taxes collected, in how those taxes are spent. In how the police use the power that they are given.  In so many other <br />
                     ways that our government is supposed to SERVE the people, never RULE the people.</ul>
             </ol>
+            <center>
+                <img src={Index} alt="Cross of Christ" align='center' />
+            </center>
             <Footer />
         </div>
     )

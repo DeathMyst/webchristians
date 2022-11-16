@@ -28,10 +28,10 @@ const ContactForm = () => {
                     <input type="text" placeholder="Enter Your Name" name="name" required />
                 </div>
                 <div className="contact-email">
-                    <input type="email" placeholder="Your Email" name="email" required />
+                    <input type="email" placeholder="Enter Your Email" name="email" required />
                 </div>
                 <div className="contact-message">
-                    <textarea placeholder="Your Message" name="message" required />
+                    <textarea placeholder="Enter Your Message" name="message" required />
                 </div>
                 <div className="contact-submit">
                     <button type="submit">Send Your Message</button>

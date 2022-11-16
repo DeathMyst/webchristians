@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "../../src/style/contact.scss"
+
 import Banner from "./Banner";
 import Footer from "./footer";
 import Header from "./header";
 import ContactForm from "./contact-us";
-// import Selfie from "../images/ric04.jpg"
+
 import contactPagePicture from "../images/3d-christian-wallpaper-calvary-1152x864.jpg";
+import Contact_God from "../images/adam.jpg";
 
 const Contact = () => {
     return (
@@ -16,9 +18,10 @@ const Contact = () => {
             <div className="contact-title">
                 <hr width="80%" color="bisque" />
                 <center>
+                    <img src={Contact_God} alt="Contact" />
                     <ContactForm /><br />
+                    <img src={contactPagePicture} alt="Contact" />
                 </center>
-                <img src={contactPagePicture} alt="Bro. Ric" align='center' />
                 <hr width="80%" color="bisque" />
             </div>
             <Footer />
