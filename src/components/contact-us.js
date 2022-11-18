@@ -24,15 +24,17 @@ const ContactForm = () => {
     return (
         <center>
             <form action="https://formsubmit.co/ricworstell@gmail.com" method="POST">
-                <div className="contact-name">
-                    <input type="text" placeholder="Enter Your Name" name="name" required />
+                <hr width="35%" color="bisque" />
+                <div className="contact-name">Enter Your Name&nbsp;:<br />
+                    <input style={{ width: "350px" }} type="text" placeholder="Name" name="name" required />
                 </div>
-                <div className="contact-email">
-                    <input type="email" placeholder="Enter Your Email" name="email" required />
+                <div className="contact-email">Enter Your Email :<br />
+                    <input style={{ width: "350px" }} type="email" placeholder="Email" name="email" required />
                 </div>
-                <div className="contact-message">
-                    <textarea placeholder="Enter Your Message" name="message" required />
+                <div className="contact-message">Enter Your Message :<br />
+                    <textarea style={{ width: "400px", height: "100px" }} placeholder="Message" name="message" required />
                 </div>
+                <hr width="35%" color="bisque" />
                 <div className="contact-submit">
                     <button type="submit">Send Your Message</button>
                 </div>

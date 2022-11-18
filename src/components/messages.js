@@ -4,7 +4,7 @@ import Footer from "./footer";
 import Header from "./header";
 
 import "../../src/style/h_tags.scss"
-
+import Logo1 from "../images/logo1.gif"
 const Messages = () => {
     return (
         <div>

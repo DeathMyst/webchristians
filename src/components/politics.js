@@ -7,6 +7,7 @@ import "../style/politics.scss"
 import "../../src/style/h_tags.scss"
 
 import Index from "../images/index2.jpg"
+import Vote1 from "../images/vote.jpg"
 
 const Politics = () => {
     return (
@@ -95,6 +96,8 @@ const Politics = () => {
                     ways that our government is supposed to SERVE the people, never RULE the people.</ul>
             </ol>
             <center>
+                <img src={Index} alt="Cross of Christ" align='center' />
+                <img src={Vote1} alt="Cross of Christ" align='center' />
                 <img src={Index} alt="Cross of Christ" align='center' />
             </center>
             <Footer />

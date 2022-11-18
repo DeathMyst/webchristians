@@ -8,6 +8,11 @@ import "../../src/style/h_tags.scss"
 
 import R_Roadpic from "../images/r_road.jpg"
 import Paid from "../images/paid.jpg"
+import Repent from "../images/repent.jpg"
+import Heaven from "../images/2Heaven.jpg"
+import Post1 from "../images/post.jpg"
+import Profit from "../images/profit.jpg"
+
 
 export default function () {
     return (
@@ -132,7 +137,14 @@ export default function () {
                 <br /><hr width="60%" color="bisque" />
                 <center><img src={R_Roadpic} alt="Romans Road to Salvation" /></center>
                 <hr width="60%" color="bisque" /><br />
-                <center><img src={Paid} alt="Your wage is Paid" /></center>
+                <center>
+                    <img src={Paid} alt="Your wage is Paid" />
+                    <img src={Heaven} alt="Get to Heaven" />
+                    <img src={Repent} alt="Repentance" />
+                    <hr width="60%" color="bisque" /><br />
+                    <img src={Post1} alt="Extra" />
+                    <img src={Profit} alt="Profit" />
+                </center>
                 <hr width="60%" color="bisque" /><br />
             </div>
 

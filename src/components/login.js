@@ -7,6 +7,7 @@ import Footer from "./footer";
 import Header from "./header";
 
 import "../../src/style/h_tags.scss"
+import "../../src/style/login.scss"
 
 export default class Login extends Component {
     constructor(props) {
@@ -16,12 +17,10 @@ export default class Login extends Component {
             email: "",
             pword1: "",
             hasLogged: false
-
         }
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-
     }
 
     handleSubmit(event) {
@@ -31,7 +30,6 @@ export default class Login extends Component {
         let data = {
             email: this.state.email,
             pword1: this.state.pword1,
-
         }
 
         axios
@@ -69,8 +67,8 @@ export default class Login extends Component {
                 <hr width="80%" color="bisque" />
                 <form onSubmit={this.handleSubmit}>
                     <center>
-                        <input onChange={this.handleChange} type="text" placeholder="Enter Your Email" name="email" /><br />
-                        <input onChange={this.handleChange} type="password" placeholder="Enter your password" name="pword1" /><br /><br />
+                        <input style={{ width: "350px" }} onChange={this.handleChange} type="text" placeholder="Enter Your Email" name="email" /><br />
+                        <input style={{ width: "350px" }} onChange={this.handleChange} type="password" placeholder="Enter your password" name="pword1" /><br /><br />
                         <div className="saveit">
                             <div className="buttons">
                                 <button type="submit"> Login  </button>

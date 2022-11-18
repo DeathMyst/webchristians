@@ -6,9 +6,13 @@ import Header from "./header";
 import "../../src/style/abortion.scss"
 import "../../src/style/h_tags.scss"
 
+import Life from "../images/life.jpg"
+import Life2 from "../images/life2.jpg"
+import Babies from "../images/babies.jpg"
+
 export default function () {
     return (
-        <div clmain-text>
+        <div className="main-body">
             <Banner />
             <Header />
 
@@ -163,6 +167,11 @@ export default function () {
                 and I will happily take it and raise it. Every baby deserves a change at life.<br />
                 <br /><hr width="100%" color="#EAAC6F" /><br />
             </div >
+            <center>
+                <img src={Life2} alt="Babies Lives Matter" align='center' />
+                <img src={Babies} alt="Babies Lives Matter" align='center' />
+                <img src={Life} alt="Babies Lives Matter" align='center' />
+            </center>
             <Footer />
             <br /><br />
         </div >

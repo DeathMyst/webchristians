@@ -5,6 +5,10 @@ import Header from "./header";
 
 import "../../src/style/h_tags.scss"
 
+import Religions from "../images/4200_Religions.jpg"
+import Number_1 from "../images/number_1.jpg"
+import Bow from "../images/bow.jpg"
+
 const Worldly = () => {
     return (
         <div>
@@ -12,9 +16,9 @@ const Worldly = () => {
             <Header />
             <h2>How the World See's Religion</h2>
             <hr width="80%" color="bisque" />
-            <h6>At last count there were over 4,500 DIFFERENT religions world wide.  Many claim to have the same
-                God.  The problem with this is there is only ONE God and He has already given us our instructions, the
-                Holy Bible.  The last chapter of the Bible tells us: <br /><br />
+            <h6>At last count there were over 4,200 DIFFERENT religions world wide.  Many claim to have the same God.
+                The problem with this is there is only ONE God and He has already given us our instructions, the Holy
+                Bible.  The last chapter of the Bible tells us: <br /><br />
 
                 <h2>Revelation 22:18 For I testify unto every man that heareth the words of the prophecy of this book, If
                     any man shall add unto these things, God shall add unto him the plagues that are written in this book:<br />
@@ -78,13 +82,21 @@ const Worldly = () => {
                 Christ and the more you will know, there is only ONE true religion and 4,499 plus religions created by Satan to
                 generate striff and confusion in the Body of Christ.<br /><br />
 
-                Only the Holy Bible dates back to over 5000 years ago.  The Book of Morman is less than 200 years old, the Koran is
-                less than 600 years old.  God wants all men to come together under one faith not under thousands of faiths.  Trust in
-                the Book that was written by God Himself over 5000 years ago and has been RIGHT on everything it has predicted so far.
-                NO other book can make that boast, make that claim.  Only the Holy Bible, the KJV version that was translated from the
-                original texts themselves.  No other "holy" book can make that claim.  Only the Holy Bible.  Even these "new versions"
-                of the Bible have made changes that change the entire doctrine of the scriptures.  They are NOT the Word of God when
-                they changea or remove entire verses of scripture.<br /><br /></h6>
+                Only the Holy Bible dates back to over 5000 years ago. The Old Testament is the Hebrew Bible which includes the
+                Torah.  The Book of Morman is less than 200 years old, the Koran is less than 600 years old.  God wants all men
+                to come together under one faith not under thousands of faiths.  Trust in the Book that was written by God Himself
+                over 5000 years ago and has been RIGHT on everything it has predicted so far.  NO other book can make that boast,
+                make that claim.  Only the Holy Bible, the KJV version that was translated from the original texts themselves.  No
+                other "holy" book can make that claim.  Only the Holy Bible.  Even these "new versions" of the Bible have made
+                changes that change the entire doctrine of the scriptures.  They are NOT the Word of God when they changea or
+                remove entire verses of scripture.  This is how they are able to "copyright" the Bible, but to do this they need to
+                change a certain percentage of it to be able to call it their own work and therefore copyright it.  Last I saw whan
+                I researched copyright laws was that you ahve to change a minimum of 33% to be able to call it your own work and then
+                copyright it.  Just think what all has to be changed then to be able to call a "version" of the Bible your own work.
+                Its more a perversion than it is a version.  When you change that much of the Bible, its more then thee's and thou's
+                that your changing, your changing Doctrine.  Your changind the entire meaning of the Bible just by changing one simple
+                doctrine.  As in the example of John 3:16, taking out the word begotten changes so many other verses and their meaning
+                that your changing God's Word and His intention behind an entire doctrine.<br /><br /></h6>
             <hr width="60%" color="bisque" />
             <h2>John 3:16 For God so loved the world, that he gave his only begotten Son, <br />that whosoever believeth in him should not
                 perish, but have everlasting life.</h2>
@@ -96,7 +108,13 @@ const Worldly = () => {
                 marriage there are we are here. So when God says now are ye become the sons of God, now you are a new creation, a new creature,
                 it refers to both sexes, male and female. We become the "adopted" children of God.</h6><br /><br />
             <hr width="80%" color="bisque" />
+            <center>
+                <img src={Religions} alt="4200 Religions" align='center' />
+                <img src={Number_1} alt="Good and Faithful" align='center' />
+                <img src={Bow} alt="Bow to No Man" align='center' />
+            </center>
             <Footer />
+
         </div>
     )
 }

@@ -7,6 +7,11 @@ import Header from "./header";
 import "../../src/style/athiest.scss"
 import "../../src/style/h_tags.scss"
 
+import Reject1 from "../images/reject_1.jpg"
+import Wounds from "../images/wounds.jpg"
+import Hell from "../images/hell.jpg"
+import Athiest1 from "../images/athiest1.jpg"
+
 const Athiest = () => {
     return (
         <div>
@@ -111,31 +116,41 @@ const Athiest = () => {
                     2Co_5:7 (For we walk by faith, not by sight:)</h2>
                 <h3>231 verses about Faith.</h3>
                 <br /><hr width="80%" color="#EAAC6F" /><br />
-                Just as 'Faith' is required to believe that God does indeed exist, 'Faith' is also required to believe that
-                God does not exist.  Any self claimed athiest must have faith in their belief that God does not exist since
-                there is no way that they can prove that God does not exist.  Standing there demanding that God appear before
-                you or prove to you that He exists is the weakest and lamest meathod to try to prove ANYTHING much less the
-                existance of God. Why would ANY God jump to the "demands" of those whom He created just to prove to them that
-                they are wrong in their belief, their faith, that He does not exist. This by its definition makes atheism a
-                religion since it requires faith.  Have no fear however, God has already promised that one day He will indeed
-                prove Himself to EVERYONE.  Every knee shall bow and every tongue shall confess that God does indeed exist.
-                That He is who He says He is and He did everything that He said He did in his story, the Bible.  After all,
-                history is HIS STORY.  I pray with all my heart that before that great and terrible day comes, when you must
-                kneel before Him, that you do indeed put your faith and belief in God.  If not, well, it will be too late for
-                you on that day.  Everyone will live forever, its here that we choose our eternal 'address'.  Either Heaven
-                with God, where Jesus went to make a Mansion for you, or forever in Hell, in a lake of eternal fire and punishment.
-                This is not where God chose to send anyone. He created Hell for the angels that rebelled against Him, but He has
-                to have somewhere to send those that refuse to trust or to believe in Him.  He sent Jesus to earth to prove He
-                still loves us and that He does indeed exist.  He told them clearly and plainly that He is God and to provide a path
-                back to Him that requires so very little on our part.  Jesus did all the hard work for us. He performed many
-                miracles, raised the dead, cured diseases and so very many other things while He was here just to show us that
-                He is real, He does live and He still loves us despite all the wrong we do.<br /><br />
+                Just as 'Faith' is required to believe in God, to believe that God does indeed exist, 'Faith' is also required to
+                believe in athiesm, to believe that God does not exist.  Every 'self claimed' athiest must have faith in their belief
+                that God does not exist since there is no way that they can prove that God does not exist.  Standing there demanding
+                that God appear before you or prove to you that He exists, besides being completely crazy, is one of  the weakest and
+                lamest method to try to prove ANYTHING much less the existance of God.  Why would ANY 'God' jump to the "demands" of
+                those whom He created just to prove to them that they are wrong in their belief, their faith, that He does not exist.
+                This, by its definition, makes atheism a religion since it requires faith.  Have no fear however, God has already
+                promised that one day He will indeed prove Himself to EVERYONE.  Every knee shall bow and every tongue shall confess
+                that God does indeed exist.  That He is who He says He is and He did everything that He said He did in his story, the
+                Bible.  After all, history is HIS STORY.  I pray with all my heart that before that great and terrible day comes, when
+                you must kneel before Him, that you do indeed put your faith and your belief in God.  If not, well, it will be too late
+                for you on that day.<br /><br />
+
+                Everyone will live forever, its here that we choose our eternal 'address'.  Either in Heaven with God, where Jesus went
+                to make a Mansion for you, or forever in Hell, in a lake of eternal fire and endless punishment.  This is not where God
+                wants to send anyone. He created Hell for the angels that rebelled against Him, but He has to have somewhere to send all
+                those that refuse to trust or to believe in Him.  He sent Jesus to earth to prove that He still loves us and that He does
+                indeed exist.  He told them clearly and plainly that He is God and to provide a path back to Him that requires so very
+                little on our part.  Jesus did all the hard work for us. He performed many miracles, raised the dead, cured diseases and
+                so very many other things while He was here just to show us that He is real, He does live and He still loves us despite
+                all the wrong we do.  All the sins we commit on a daily basis.<br /><br />
+
                 There are so many facts that must be dismissed to 'choose' not to believe in God.  With every new scientific discovery,
                 more and more proof of God is revealed.  It is a virtual impossibility that man "evolved" from anything.  Believe in the
                 facts and in the evidence, God does exist and He does love you even with your doubt. God would that NONE are lost. God
                 wants us all to have faith in His existance and in His love for us.
-
+                <br /><hr width="80%" color="#EAAC6F" /><br />
             </div>
+            <center>
+                <img src={Reject1} alt="Reject" align='center' />
+                <img src={Hell} alt="Hell" align='center' />
+                <img src={Wounds} alt="Wounds" align='center' />
+                <br /><hr width="80%" color="#EAAC6F" /><br />
+                <img src={Athiest1} alt="Athiest" align='center' />
+            </center>
             <Footer />
         </div >
     )
