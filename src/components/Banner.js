@@ -17,6 +17,11 @@ export default function Banner() {
         <div className="container center-wrapper nav-links">
           <NavLink exact to="/" activeClassName="nav-link-active"> Home <i className="fa-solid fa-house-user" /></NavLink>
         </div>
+
+        {/* <div className="container center-wrapper nav-links">
+          <NavLink exact to="/members" activeClassName="nav-link-active"> Home <i className="fa-solid fa-house-user" /></NavLink>
+        </div> */}
+
         <div className="container center-wrapper nav-links">
           <NavLink exact to="/about" activeClassName="nav-link-active"> About <i className="fa-solid fa-address-card" /></NavLink>
         </div>

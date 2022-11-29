@@ -19,13 +19,13 @@ body {
     grid-template-columns: 1fr 5fr 2fr;
     align-items: center;
     margin-top: 0;
-    background: rgba(6, 72, 102, 0.137);
+    background: rgba(8, 50, 70, 0.137);
 
 }
 
 .container>.left-side>.nav-link-wrapper {
     display: grid;
-    font-size: 2.0rem;
+    font-size: 1.75rem;
     letter-spacing: 2px;
     padding: 0px;
     margin: 0px;
@@ -38,8 +38,8 @@ body {
     // display: grid;
     justify-content: center;
     text-decoration: none;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     align-items: center;
     // justify-content: space-between;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -54,6 +54,7 @@ body {
 .container>.center-wrapper>.nav-links a:hover {
     color: rgb(219, 169, 119);
     text-decoration: underline;
+    font-size: 1.75rem;
 }
 
 .container>.right-wrapper>.buttons {
@@ -65,12 +66,12 @@ body {
 
 .container>.right-wrapper>.buttons button {
     height: 65px;
-    width: 140px;
-    font-size: .4em;
+    width: 145px;
+    font-size: .6em;
     font-weight: bold;
     letter-spacing: 2px;
-    background-color: aqua;
-    color: darkblue;
+    background-color: bisque;
+    color: rgb(182, 108, 11);
     text-align: center;
     border-radius: 2px;
     justify-content: space-around;
@@ -79,8 +80,8 @@ body {
 
 .container>.right-wrapper>.buttons button:hover {
     height: 65px;
-    width: 140px;
-    font-size: .5em;
+    width: 145px;
+    font-size: .7em;
     font-weight: bold;
     letter-spacing: 2px;
     background-color: rgb(219, 179, 119);

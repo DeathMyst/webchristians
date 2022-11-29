@@ -32,7 +32,7 @@ const ContactForm = () => {
                     <input style={{ width: "350px" }} type="email" placeholder="Email" name="email" required />
                 </div>
                 <div className="contact-message">Enter Your Message :<br />
-                    <textarea style={{ width: "400px", height: "100px" }} placeholder="Message" name="message" required />
+                    <textarea style={{ width: "400px", height: "120px" }} placeholder="Message" name="message" required />
                 </div>
                 <hr width="35%" color="bisque" />
                 <div className="contact-submit">

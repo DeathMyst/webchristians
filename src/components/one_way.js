@@ -7,6 +7,8 @@ import "../style/one_way.scss"
 import "../../src/style/h_tags.scss"
 
 import Religions from "../images/4200_Religions.jpg"
+import Salvation from "../images/salvation.jpg"
+import Oneway from "../images/oneway.jpg"
 
 const One_way = () => {
     return (
@@ -84,6 +86,9 @@ const One_way = () => {
             <div>
                 <center>
                     <img src={Religions} alt="4200 Religions" align='center' />
+                    <img src={Salvation} alt="Salvation" align='center' />
+                    <img src={Oneway} alt="One Way" align='center' />
+                    <hr width="80%" color="bisque" />
                 </center>
             </div>
             <Footer />
